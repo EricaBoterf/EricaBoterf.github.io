@@ -1,7 +1,7 @@
 title: "Erica Boterf"
 description: "Resume • Portfolio • Tutorials"
 baseurl: ""
-theme: jekyll-theme-cayman
+theme: minima
 url: ""
 repository: EricaBoterf/EricaBoterf.github.io
 
