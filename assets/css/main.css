@@ -571,12 +571,12 @@ video {
   margin-top: 1.5rem;
 }
 
-.flex {
-  display: flex;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
-.table {
-  display: table;
+.flex {
+  display: flex;
 }
 
 .hidden {
@@ -605,6 +605,10 @@ video {
 
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -645,16 +649,16 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-b-2xl {
