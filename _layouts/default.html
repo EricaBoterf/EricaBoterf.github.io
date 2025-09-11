@@ -28,8 +28,28 @@
     {{ content }}
   </main>
 
-  <footer class="text-center text-sm text-gray-500 py-8">
-    © {{ site.time | date: '%Y' }} {{ site.title }}
-  </footer>
+ <footer class="border-t">
+  <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-gray-500 flex flex-col items-center gap-4">
+    <span>© {{ site.time | date: '%Y' }} {{ site.title | default: 'Portfolio' }}</span>
+    
+    <!-- Social links -->
+    <div class="flex gap-4">
+      <a class="hover:text-brand" href="mailto:erica.l.boterf@gmail.com">Email</a>
+      <a class="hover:text-brand" href="https://www.linkedin.com/in/erica-boterf-34091b383/" target="_blank">LinkedIn</a>
+      <a class="hover:text-brand" href="https://github.com/EricaBoterf" target="_blank">GitHub</a>
+    </div>
+
+    <!-- NSLS Badge -->
+    <div class="mt-4">
+      <a href="https://app.nsls.org/web/public/social/share/badge/DZVvEecvnTioERb6qGgBvh" target="_blank">
+        <img 
+          src="https://app.nsls.org/web/public/social/share/badge/DZVvEecvnTioERb6qGgBvh" 
+          alt="NSLS Badge" 
+          class="h-20 w-auto shadow-md hover:scale-105 transition"
+        >
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
