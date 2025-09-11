@@ -3,6 +3,7 @@ description: "Resume • Portfolio • Tutorials"
 baseurl: ""
 theme: jekyll-theme-cayman
 url: ""
+repository: EricaBoterf/EricaBoterf.github.io
 
 header_pages:
   - portfolio.md
