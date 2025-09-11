@@ -567,6 +567,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -589,6 +593,10 @@ video {
 
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .justify-between {
