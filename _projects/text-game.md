@@ -41,6 +41,3 @@ def main():
             else:
                 print("Can't get that!")
 
-### How to run locally
-```bash
-python assets/code/TextBasedGame.py
