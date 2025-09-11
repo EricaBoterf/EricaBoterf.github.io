@@ -1,0 +1,22 @@
+title: "Erica Boterf"
+description: "Resume • Portfolio • Tutorials"
+baseurl: ""
+theme: jekyll-theme-cayman
+url: ""
+
+header_pages:
+  - portfolio.md
+  - tutorials.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+email: "erica.l.boterf@gmail.com"
+github_username: "EricaBoterf"
+linkedin: "https://www.linkedin.com/in/erica-boterf-34091b383/"
