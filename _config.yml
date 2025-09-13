@@ -14,6 +14,8 @@ collections:
     output: true
     permalink: /projects/:name/
 
+
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
