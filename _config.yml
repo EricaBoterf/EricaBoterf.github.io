@@ -19,6 +19,7 @@ collections:
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-github-metadata
 
 email: "erica.l.boterf@gmail.com"
 github_username: "EricaBoterf"
